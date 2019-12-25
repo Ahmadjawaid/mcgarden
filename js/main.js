@@ -119,8 +119,16 @@
     items: 1
   });
 
-  $('#about-collapse-btn').on('click', function () {
+  $('#about-btn-open').on('click', function () {
     $("#about-more").removeClass('no-display');
+    $("#about-btn-open").addClass('no-display');
+    $("#about-btn-close").removeClass('no-display');
+  });
+
+  $('#about-btn-close').on('click', function () {
+    $("#about-more").addClass('no-display');
+    $("#about-btn-open").removeClass('no-display');
+    $("#about-btn-close").addClass('no-display');
   });
 
 })(jQuery);
