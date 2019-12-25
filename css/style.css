@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #ff9100;
   outline: none;
   text-decoration: none;
 }
@@ -31,6 +31,30 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #ff9100;
+  border: 2px solid #ff9100;
+}
+
+
+button:hover {
+  border: 2px solid #ff9100;
+
+  background: #ff9100;
+  border-color: #ff9100;
+  color: #fff;
+
 }
 
 h1,
@@ -67,6 +91,12 @@ h6 {
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
+}
+
+/* AJ */ 
+
+.no-display {
+  display: none;
 }
 
 /* Prelaoder */
@@ -194,7 +224,7 @@ h6 {
 
 
 #intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-curriculum {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -219,11 +249,11 @@ h6 {
 
 }
 
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-curriculum {
   border: 2px solid #fff;
 }
 
-#intro .intro-info .btn-services:hover {
+#intro .intro-info .btn-curriculum:hover {
   background: #ff9100;
   border-color: #ff9100;
   color: #fff;
@@ -479,12 +509,15 @@ h6 {
   padding: 60px 0;
 }
 
+
+
 #about .about-container .background {
   margin: 20px 0;
 }
 
 #about .about-container .content {
   background: #fff;
+
 }
 
 #about .about-container .title {
@@ -574,15 +607,15 @@ h6 {
   font-size: 24px;
 }
 
-/* Services Section
+/* curriculum Section
 --------------------------------*/
 
-#services {
+#curriculum {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services .box {
+#curriculum .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -593,39 +626,39 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#curriculum .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#curriculum .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#curriculum .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#curriculum .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#curriculum .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#curriculum .box:hover .title a {
   color: #ff9100;
 }
 
-#services .description {
+#curriculum .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
