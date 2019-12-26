@@ -98,6 +98,10 @@ h6 {
   .display-mobile {
     display: none !important;
   }
+  .pad-web {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 @media only screen and (max-width: 992px){
   .display-web {
