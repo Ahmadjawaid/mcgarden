@@ -33,7 +33,7 @@ p {
   margin: 0 0 30px 0;
 }
 
-button {
+.button1 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -48,7 +48,7 @@ button {
 }
 
 
-button:hover {
+.button1:hover {
   border: 2px solid #ff9100;
 
   background: #ff9100;
