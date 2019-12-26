@@ -94,6 +94,17 @@ h6 {
 }
 
 /* AJ */ 
+@media only screen and (min-width: 992px){
+  .display-mobile {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 992px){
+  .display-web {
+    display: none !important;
+  }
+}
+
 
 .no-display {
   display: none;
@@ -1319,9 +1330,8 @@ h6 {
 --------------------------------*/
 
 #contact {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 60px 0;
-  overflow: hidden;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+   padding: 60px 0 40px 0;
 }
 
 #contact .section-header {
@@ -1340,12 +1350,7 @@ h6 {
   color: #ff9100;
 }
 
-#contact .contact-about p {
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Montserrat", sans-serif;
-  color: #888;
-}
+
 
 #contact .social-links {
   padding-bottom: 20px;
@@ -1386,7 +1391,7 @@ h6 {
 #contact .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #contact .form #sendmessage {
@@ -1453,6 +1458,7 @@ h6 {
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
