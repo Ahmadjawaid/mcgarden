@@ -217,20 +217,34 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
-  background-color: #003166;
-  width: 100%;
-  position: relative;
+  height: 100vh;
+}
+@media only screen and (min-width: 992px){
+  #intro{
   background: url("../img/MCG\ Art.png") center bottom no-repeat;
   background-size: cover;
   padding-top: 910px;
   margin-top: 90px;
+  }
 }
 
-
-#intro .intro-info {
-  width: 50%;
-  margin-top: -850px;
+#intro .intro-img {
+  margin: 0 !important;
+  width: 100% !important;
 }
+@media only screen and (min-width: 992px){
+  #intro .intro-img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  #intro .intro-info {
+    margin-top: -850px;
+    width: 50%;
+  }
+}
+
 
 #intro .intro-info h2 {
   margin-bottom: 20px;
@@ -528,6 +542,12 @@ h6 {
   background: #fff;
   padding: 60px 0;
 }
+
+@media only screen and (min-width: 992px){
+    #about {
+      margin-top: -150px;
+    }
+  }
 
 
 
