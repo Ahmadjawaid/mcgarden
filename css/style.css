@@ -104,6 +104,16 @@ h6 {
 .curriculum-header-subs {
   color: #ff9100;
 }
+.yellow {
+  color: #e0a800 !important;
+}
+.blue {
+  color: #0391e4 !important;
+}
+
+.red {
+  color: #ee4545 !important;
+}
 
 /* Prelaoder */
 
@@ -500,6 +510,10 @@ h6 {
   width: 70%;
 }
 
+.section-header {
+  margin-bottom: 40px;
+}
+
 /* Section with background
 --------------------------------*/
 
@@ -621,7 +635,6 @@ h6 {
   position: relative;
   padding: 0;
   list-style: none;
-  color: white;
   margin-top: 60px;
 }
 
@@ -807,13 +820,17 @@ h6 {
   }
 }
 
+#admissions {
+   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+   padding: 60px 0 40px 0;
+}
 
 /* curriculum Section
 --------------------------------*/
 
 #curriculum {
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 #curriculum .box {
@@ -1147,16 +1164,16 @@ h6 {
   background-color: #ff9100;
 }
 
-/* Team Section
+/* staff Section
 --------------------------------*/
 
-#team {
+#staff {
   background: #fff;
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#team .member {
+#staff .member {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
@@ -1164,7 +1181,7 @@ h6 {
   overflow: hidden;
 }
 
-#team .member .member-info {
+#staff .member .member-info {
   opacity: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1186,50 +1203,50 @@ h6 {
   transition: 0.2s;
 }
 
-#team .member .member-info-content {
+#staff .member .member-info-content {
   margin-top: 50px;
   transition: margin 0.2s;
 }
 
-#team .member:hover .member-info {
+#staff .member:hover .member-info {
   background: rgba(0, 62, 128, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#staff .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#staff .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#staff .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
+#staff .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#staff .member .social a {
   transition: none;
   color: #fff;
 }
 
-#team .member .social a:hover {
+#staff .member .social a:hover {
   color: #ff9100;
 }
 
-#team .member .social i {
+#staff .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
